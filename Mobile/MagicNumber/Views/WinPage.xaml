@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagicNumber.Views.WinPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" BackgroundColor="{StaticResource pageBackgroundColor}"
+                     x:Name="mainLayout">
+            <Image Source="win.png" HeightRequest="150"/>
+            <Label Text="Bravo !" FontSize="50"
+                   FontAttributes="Bold" VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   TextColor="{StaticResource titleColor}"/>
+            <Label Text="Le nombre magique etait bien 5." HorizontalOptions="Center"
+                   FontSize="20" TextColor="{StaticResource titleColor}" 
+                   FontAttributes="Italic" x:Name="magicNumberLabel"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

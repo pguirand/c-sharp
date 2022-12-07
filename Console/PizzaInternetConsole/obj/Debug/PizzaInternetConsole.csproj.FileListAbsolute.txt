@@ -1,0 +1,11 @@
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\bin\Debug\PizzaInternetConsole.exe.config
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\bin\Debug\PizzaInternetConsole.exe
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\bin\Debug\PizzaInternetConsole.pdb
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\obj\Debug\PizzaInternetConsole.csproj.AssemblyReference.cache
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\obj\Debug\PizzaInternetConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\obj\Debug\PizzaInternetConsole.csproj.CoreCompileInputs.cache
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\obj\Debug\PizzaInternetConsole.exe
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\obj\Debug\PizzaInternetConsole.pdb
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\p_gui\source\repos\PizzaInternetConsole\PizzaInternetConsole\obj\Debug\PizzaInternetConsole.csproj.CopyComplete

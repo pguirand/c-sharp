@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views ="clr-namespace:MagicNumber.Views"
+             x:Class="MagicNumber.Views.GamePage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <views:StarsView Grid.Row="0" Grid.Column="0" />
+            <BoxView Color="{StaticResource shadowColor}" Rotation="-10"
+                     Margin="-20,0,-20,-35" HeightRequest="120"
+                     Grid.Column="0" Grid.Row="2"/>
+
+            <StackLayout Grid.Row="1" Grid.Column="0" VerticalOptions="Center">
+                <Label FontSize="50" Text="Devinez le"
+                   HorizontalOptions="Center"
+                   TextColor="{StaticResource titleColor}"/>
+                <Label FontSize="30" Text="Nombre magique"
+                   TextColor="{StaticResource titleColor}"
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+                <Label FontSize="20" Text="Entre 1 et 10" HorizontalOptions="Center"
+                   x:Name="minmaxLabel" FontAttributes="Italic"
+                   TextColor="{StaticResource titleColor}"/>
+                <Entry Placeholder="?" FontSize="80"
+                   x:Name="NumberEntry" Keyboard="Numeric"
+                   BackgroundColor="{StaticResource shadowColor}"
+                   TextColor="White"
+                   PlaceholderColor="White"
+                   Margin="0, 30, 0, 0" HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" WidthRequest="120" />
+                <Button Text="DEVINER" Clicked="ButtonClick"
+                    BackgroundColor="{StaticResource shadowColor}" TextColor="White"
+                    HorizontalOptions="Center" WidthRequest="120"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

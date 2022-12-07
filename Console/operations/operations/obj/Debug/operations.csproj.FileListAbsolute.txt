@@ -1,0 +1,8 @@
+C:\Users\p_gui\source\repos\operations\operations\bin\Debug\operations.exe.config
+C:\Users\p_gui\source\repos\operations\operations\bin\Debug\operations.exe
+C:\Users\p_gui\source\repos\operations\operations\bin\Debug\operations.pdb
+C:\Users\p_gui\source\repos\operations\operations\obj\Debug\operations.csproj.AssemblyReference.cache
+C:\Users\p_gui\source\repos\operations\operations\obj\Debug\operations.csproj.SuggestedBindingRedirects.cache
+C:\Users\p_gui\source\repos\operations\operations\obj\Debug\operations.csproj.CoreCompileInputs.cache
+C:\Users\p_gui\source\repos\operations\operations\obj\Debug\operations.exe
+C:\Users\p_gui\source\repos\operations\operations\obj\Debug\operations.pdb

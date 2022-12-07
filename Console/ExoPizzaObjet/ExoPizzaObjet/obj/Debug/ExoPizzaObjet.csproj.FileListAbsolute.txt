@@ -1,0 +1,8 @@
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\bin\Debug\ExoPizzaObjet.exe.config
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\bin\Debug\ExoPizzaObjet.exe
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\bin\Debug\ExoPizzaObjet.pdb
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\obj\Debug\ExoPizzaObjet.csproj.AssemblyReference.cache
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\obj\Debug\ExoPizzaObjet.csproj.SuggestedBindingRedirects.cache
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\obj\Debug\ExoPizzaObjet.csproj.CoreCompileInputs.cache
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\obj\Debug\ExoPizzaObjet.exe
+C:\Users\p_gui\source\repos\ExoPizzaObjet\ExoPizzaObjet\obj\Debug\ExoPizzaObjet.pdb
