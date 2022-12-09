@@ -79,6 +79,7 @@ namespace PizzaApp
         public void DownloadData(Action<List<Pizza>> action)
         {
             const string url = "https://drive.google.com/uc?export=download&id=1JOi31kZEZA2FSfdDw8EBO58lFKPxKBct";
+            const string apiurl = "https://pizzaserv.azurewebsites.net/api/getpizzas";
 
             using (var webclient = new WebClient())
             {
@@ -114,7 +115,7 @@ namespace PizzaApp
                     };
 
                     Console.WriteLine("Phase 3");
-                    webclient.DownloadStringAsync(new Uri(url));
+                    webclient.DownloadStringAsync(new Uri(apiurl));
             
             }
 
