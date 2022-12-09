@@ -11,13 +11,13 @@ namespace pizza_mama.Models
     {
         [JsonIgnore]
         public int PizzaID { get; set; }
-        [Display(Name ="Nom")]
+        [Display(Name ="Name")]
         public string nom { get; set; }
-        [Display(Name ="Prix")]
+        [Display(Name ="Price")]
         public float prix { get; set; }
-        [Display(Name ="Végétarienne")]
+        [Display(Name ="Vegie")]
         public bool vegetarienne { get; set; }
-        [Display(Name ="Ingrédients")]
+        [Display(Name ="Ingredients")]
         [JsonIgnore]
         public string ingredients { get; set; }
         [NotMapped]

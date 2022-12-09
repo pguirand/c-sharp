@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using pizza_mama.Data;
+using pizza_mama.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +21,9 @@ namespace pizza_mama.Pages
 
         public void OnGet()
         {
-
+            //var pizza = new Pizza() { nom = "PizzaTest", prix = 5 };
+            //dataContext.Pizzas.Add(pizza);
+            //dataContext.SaveChanges();
         }
     }
 }

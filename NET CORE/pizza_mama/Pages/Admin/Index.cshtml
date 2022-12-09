@@ -2,8 +2,13 @@
 @model pizza_mama.Pages.Admin.IndexModel
 @{
 }
+@if (Model.IsDevelopmentMode) 
+{
+    <p> Development Mode</p>
 
-<h1>Authentification</h1><br />
+}
+
+<h1>Authentication</h1><br />
 @if (Model.DisplayInvalidAccountMessage) {
     <div class="alert alert-danger" role="alert">
         ERREUR : Ce compte est invalide

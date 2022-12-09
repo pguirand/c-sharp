@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 using Microsoft.Extensions.Configuration;
 using System.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace pizza_mama.Pages.Admin
 {
@@ -15,10 +17,17 @@ namespace pizza_mama.Pages.Admin
     {
         IConfiguration configuration;
         public bool DisplayInvalidAccountMessage = false;
+        public bool IsDevelopmentMode = false;
 
-        public IndexModel(IConfiguration configuration)
+
+        public IndexModel(IConfiguration configuration, IWebHostEnvironment env)
         {
             this.configuration = configuration;
+
+            if (env.IsDevelopment())
+            {
+                IsDevelopmentMode = true;
+            }
         }
 
         public IActionResult OnGet()

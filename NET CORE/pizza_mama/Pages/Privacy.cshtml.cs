@@ -23,9 +23,7 @@ namespace pizza_mama.Pages
 
         public void OnGet()
         {
-            var pizza = new Pizza() { nom = "PizzaTest", prix = 5 };
-            dataContext.Pizzas.Add(pizza);
-            dataContext.SaveChanges();
+        
         }
     }
 }
